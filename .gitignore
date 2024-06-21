@@ -1,0 +1,6 @@
+# poetry and venv
+.venv/
+# python cache
+**/__pycache__/
+# 2to3
+**/*.py.bak
