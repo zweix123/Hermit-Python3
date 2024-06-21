@@ -4,15 +4,15 @@ A man. A horse. A nature.
 (Winner of Fall 2015 CS 15-112 Term Project Contest at CMU)
 
 ## DEPENDENCIES
-* Python 2 (https://www.python.org/downloads/)
-* Pygame (http://www.pygame.org/download.shtml)
-* Numpy (http://www.numpy.org)
+* Python 3 (https://www.python.org/downloads/)
+* Poetry (`python3 -m pip install poetry`)
 
 ## HOW TO RUN
+
 Download the project. In terminal, type:
-```bash
-$ python /path/to/folder/src/main.py
-```
+1. Create a virtual environment and enter it: `poetry shell`
+2. Download Dependencies: `poetry install`
+3. Run: `python src/main.py`
 
 ## VIDEO
 https://www.youtube.com/watch?v=mPYeTJd8klQ
